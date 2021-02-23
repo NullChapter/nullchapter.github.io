@@ -4,7 +4,7 @@ title: "About"
 # author: "Alan Alexander Thomas"
 description: "Welcome to Null Chapter"
 showFullContent: false
-draft: true
+draft: false
 ---
 <!-- 
 +++

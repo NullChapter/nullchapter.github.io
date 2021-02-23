@@ -8,48 +8,21 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 04 Nov 2020 12:46:07 +0530</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Blog 2: Testing External Links</title>
-      <link>/blog/null-chapter-youtube-link/</link>
-      <pubDate>Sat, 07 Nov 2020 16:07:16 +0530</pubDate>
+      <title></title>
+      <link>/blog/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/blog/null-chapter-youtube-link/</guid>
-      <description></description>
+      <guid>/blog/</guid>
+      <description>coming soon</description>
     </item>
     
     <item>
-      <title>Blog1</title>
-      <link>/blog/blog1/</link>
-      <pubDate>Tue, 03 Nov 2020 18:41:58 +0530</pubDate>
+      <title></title>
+      <link>/u/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/blog/blog1/</guid>
-      <description>Style Demo h1 Heading h2 Heading h3 Heading h4 Heading h5 Heading h6 Heading  This is bold text
-This is bold text
-This is italic text
-This is italic text
-Deleted text
-This is text with inline math $\sum_{n=1}^{\infty} 2^{-n} = 1$ and with math blocks:
-$$ \sum_{n=1}^{\infty} 2^{-n} = 1 $$
-   Heading Another heading     text text   text text   text text     Block quotes are written like so.</description>
-    </item>
-    
-    <item>
-      <title>Author2</title>
-      <link>/u/author2/</link>
-      <pubDate>Tue, 03 Nov 2020 18:31:35 +0530</pubDate>
-      
-      <guid>/u/author2/</guid>
-      <description>null_&#34;
-Cras dictum suscipit suscipit. Phasellus ut ipsum ipsum. Mauris venenatis diam in ipsum mattis placerat. Morbi mollis tellus et accumsan mollis. Morbi risus risus, aliquet ut tincidunt ut, eleifend eget nisl. Curabitur dapibus maximus ullamcorper. Nam tempus dui eu enim volutpat, at luctus mauris venenatis. Donec mattis in dui sed placerat. Maecenas suscipit euismod elit ac venenatis. In nec commodo quam. Vestibulum luctus urna vel sodales facilisis. Duis porta ipsum ac erat aliquet elementum.</description>
-    </item>
-    
-    <item>
-      <title>Author1</title>
-      <link>/u/author1/</link>
-      <pubDate>Tue, 03 Nov 2020 18:31:05 +0530</pubDate>
-      
-      <guid>/u/author1/</guid>
-      <description>null_&#34;
-Nunc libero dui, dignissim et urna at, molestie mattis massa. Nulla eleifend sed leo quis fermentum. Phasellus pellentesque libero ac accumsan varius. Aenean vel enim vulputate, egestas mauris sit amet, pulvinar orci. Nunc orci magna, sagittis quis tincidunt vitae, maximus ac nulla. Aliquam erat volutpat. Mauris eleifend lectus in pellentesque venenatis. Sed porta maximus lorem nec imperdiet. Etiam pretium mauris tristique, dignissim ligula ac, pulvinar magna. Duis malesuada sem eget nibh commodo, quis pretium urna malesuada.</description>
+      <guid>/u/</guid>
+      <description>coming soon</description>
     </item>
     
     <item>
@@ -64,7 +37,7 @@ An open security community that was founded in 2010 with the idea of providing a
     </item>
     
     <item>
-      <title>Contact Us</title>
+      <title>Contact</title>
       <link>/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

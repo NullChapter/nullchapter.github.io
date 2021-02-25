@@ -11,7 +11,7 @@ draft: true
 
 # Welcome to Null Chapter 
 
-The Null Chapter is a local chapter of [null](https://null.community/), India's largest open security community. We conduct technical and non-technical workshops, conferences, events, and competitions.
+The Null Chapter is a local chapter of [null](https://null.community/), India's largest open security system. We conduct technical and non-technical workshops, conferences, events, and competitions.
 
 We strive to spread awareness about cyber threats and online safety. 
 

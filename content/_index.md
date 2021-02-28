@@ -11,7 +11,7 @@ draft: true
 
 # Welcome to Null Chapter 
 
-The Null Chapter is a volunteer driven technical community of VIT-AP university which is inspired from the [null community](https://null.community/), India's largest open security community. We conduct technical and non-technical workshops, conferences, events, and competitions.
+The Null Chapter is a volunteer driven technical community at VIT-AP university which is inspired from the [null community](https://null.community/), India's largest open security community. We conduct technical and non-technical workshops, conferences, events, and competitions.
 
 We strive to spread awareness about cyber threats and online safety. 
 

@@ -3,13 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
-    <lastmod>2020-11-04T12:46:07+05:30</lastmod>
+    <loc>/blog/</loc>
+    <lastmod>2021-02-27T16:23:07+05:30</lastmod>
   </url>
   
   <url>
-    <loc>/blog/</loc>
-    <priority>0</priority>
+    <loc>/blog/identify-which-website-sold-out-your-email-id/</loc>
+    <lastmod>2021-02-27T16:23:07+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-11-04T12:46:07+05:30</lastmod>
   </url>
   
   <url>

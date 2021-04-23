@@ -1,7 +1,9 @@
 ---
 title: "Get started with WSL"
-date: 2021-04-05T21:54:48+05:30
-draft: true
+date: 2021-04-22T21:54:48+05:30
+draft: false
+author: Sk Saddam Hossain
+description: Windows Subsystem for Linux
 ---
 
 # Windows subsystem for Linux

@@ -8,6 +8,16 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 04 Nov 2020 12:46:07 +0530</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Get started with WSL</title>
+      <link>/blog/blog2/</link>
+      <pubDate>Thu, 22 Apr 2021 21:54:48 +0530</pubDate>
+      
+      <guid>/blog/blog2/</guid>
+      <description>Windows subsystem for Linux WSL is an optional feature of Windows 10 which allows the user to run Linux distributions natively on Windows10 without the use of a Virtual Machine. This tool is primarily used by developers and those who work on or with open source projects. You can access the windows file manager through the bash shell in Linux, and run shell scripts and GNU/Linux command-line applications including:
+ Tools – vim, emacs Languages – Javascript/node.</description>
+    </item>
+    
+    <item>
       <title>Identify Which Website Sold Out Your Email ID</title>
       <link>/blog/blog1/</link>
       <pubDate>Sat, 27 Feb 2021 16:23:07 +0530</pubDate>

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Get started with WSL :: Null Chapter</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Windows subsystem for Linux WSL is an optional feature of Windows 10 which allows the user to run Linux distributions natively on Windows10 without the use of a Virtual Machine. This tool is primarily used by developers and those who work on or with open source projects. You can access the windows file manager through the bash shell in Linux, and run shell scripts and GNU/Linux command-line applications including:
+ Tools – vim, emacs Languages – Javascript/node." />
+<meta name="keywords" content="infosec" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/blog/blog2/" />
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css">
+
+  <link rel="stylesheet" href="/assets/blue.css">
+
+
+
+
+
+
+<link rel="apple-touch-icon" href="/img/apple-touch-icon-192x192.png">
+
+  <link rel="shortcut icon" href="/favicon.ico">
+
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Get started with WSL">
+<meta property="og:description" content="Windows Subsystem for Linux" />
+<meta property="og:url" content="/blog/blog2/" />
+<meta property="og:site_name" content="Null Chapter" />
+
+  
+    <meta property="og:image" content="/favicon.ico">
+  
+
+<meta property="og:image:width" content="2048">
+<meta property="og:image:height" content="1024">
+
+
+  <meta property="article:published_time" content="2021-04-22 21:54:48 &#43;0530 &#43;0530" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="blue">
+
+
+<div class="container center headings--one-size">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="/">
+  <div class="logo">
+    Null Chapter
+  </div>
+</a>
+
+    </div>
+    
+      <div class="menu-trigger">menu</div>
+    
+  </div>
+  
+    <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/about">About</a></li>
+        
+      
+        
+          <li><a href="/u">Authors</a></li>
+        
+      
+        
+          <li><a href="/blog">Blog</a></li>
+        
+      
+        
+          <li><a href="/contact">Contact</a></li>
+        
+      
+      
+        <ul class="menu__sub-inner">
+          <li class="menu__sub-inner-more-trigger">Show more ▾</li>
+
+          <ul class="menu__sub-inner-more hidden">
+            
+              
+                <li><a href="/gallery">Gallery</a></li>
+              
+            
+              
+                <li><a href="/team">Team</a></li>
+              
+            
+          </ul>
+        </ul>
+      
+    
+
+    
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/about">About</a></li>
+      
+    
+      
+        <li><a href="/u">Authors</a></li>
+      
+    
+      
+        <li><a href="/blog">Blog</a></li>
+      
+    
+      
+        <li><a href="/contact">Contact</a></li>
+      
+    
+      
+        <li><a href="/gallery">Gallery</a></li>
+      
+    
+      
+        <li><a href="/team">Team</a></li>
+      
+    
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<div class="post">
+  <h1 class="post-title">
+    <a href="/blog/blog2/">Get started with WSL</a></h1>
+  <div class="post-meta">
+    
+      <span class="post-date">
+        2021-04-22 [Updated: 2021-04-22]
+      </span>
+    
+    
+    <span class="post-author">:: Sk Saddam Hossain</span>
+    
+  </div>
+
+  
+
+  
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="windows-subsystem-for-linux">Windows subsystem for Linux<a href="#windows-subsystem-for-linux" class="hanchor" ariaLabel="Anchor">&#8983;</a> </h1>
+<p>WSL is an optional feature of Windows 10 which allows the user to run Linux distributions natively on Windows10 without the use of a Virtual Machine. This tool is primarily used by developers and those who work on or with open source projects. You can access the windows file manager through the bash shell in Linux, and run shell scripts and GNU/Linux command-line applications including:</p>
+<ul>
+<li>Tools – vim, emacs</li>
+<li>Languages – Javascript/node.js, Ruby, Python, C/C++, C# &amp; F#, Rust, Go, etc.</li>
+<li>Services – sshd, MySQL, Apache, lighttpd
+Moreover, it gives access to run command-line software such as grep, sed or ELF 64 binaries. You can also access your local machine’s file system from within the Linux bash shell, you can find the drives mounted in /mnt folder.</li>
+</ul>
+<p>For instance, to access the c: drive:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">  cd /mnt/c:
+</code></pre></div><p><strong>Why not use a Virtual Machine?</strong></p>
+<ul>
+<li>
+<p>Compared to a VM, it is far less resource-intensive.</p>
+</li>
+<li>
+<p>You can interact with your windows host from your Bash prompt, and also run Linux commands from cmd and PowerShell.</p>
+</li>
+</ul>
+<p>REQUIREMENTS:
+In general, WSL requires a 64-bit version of Windows 10 starting from Build 1607 (August 2, 2016 release) or later installed. Further requirements depend on the Linux distribution that you want to use.
+Note: WSL apps only work when installed on the system drive. Launching WSL installed on a different drive will yield an error message.</p>
+<p><strong>Steps to Install Windows Subsystem for Linux (WSL)</strong></p>
+<p>Before installing any Linux distribution for WSL, you must ensure that the “Windows Subsystem for Linux” optional feature is enabled in your system.
+If not you can enable it in two ways.</p>
+<p><strong>Graphically</strong></p>
+<ul>
+<li>
+<p>Open “Settings”.</p>
+</li>
+<li>
+<p>Go to “Apps -&gt; Apps &amp; Features”.</p>
+</li>
+<li>
+<p>Scroll down to the “Programs and Features” link:</p>
+</li>
+<li>
+<p>Click the link. The Programs and Features dialogue will be opened.</p>
+</li>
+<li>
+<p>On the left, click the link Turn Windows features on or off.
+<img src="/blog/blog2/1.png" alt="> null_"></p>
+</li>
+<li>
+<p>&lsquo;Windows Features&rsquo; window will appear on the screen. Scroll down to the option named “Windows Subsystem” for Linux and enable it.
+<img src="/blog/blog2/2.png" alt="> null_"></p>
+</li>
+<li>
+<p>Click OK to apply the changes you made.</p>
+</li>
+<li>
+<p>Reboot the operating system when prompted.</p>
+</li>
+</ul>
+<p><strong>Using Powershell:</strong></p>
+<ul>
+<li>Open PowerShell as Administrator and run the below command:</li>
+</ul>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">  Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+</code></pre></div><ul>
+<li>Restart your computer when prompted.</li>
+</ul>
+<p>Finally, you are ready to install the Linux distribution of your choice. To download and install the preferred distro:</p>
+<ul>
+<li>
+<p>Make sure that your system has Windows 10 build 16215 or later. Go to Settings&gt;System&gt;About and look for the <strong>OS Build</strong> and <strong>System Type</strong> fields.
+<img src="/blog/blog2/3.png" alt="> null_"></p>
+</li>
+<li>
+<p>Open Microsoft Store and choose your Linux distro you want to use. The following link will take to the Microsoft Store for each specific distribution:</p>
+<ul>
+<li><a href="https://www.microsoft.com/en-in/p/ubuntu-1604-lts/9pjn388hp8c9?rtc=1&amp;activetab=pivot:overviewtab"><strong>Ubuntu 16.04 LTS</strong></a></li>
+<li><a href="https://www.microsoft.com/en-in/p/ubuntu-1804-lts/9n9tngvndl3q?rtc=1&amp;activetab=pivot:overviewtab"><strong>Ubuntu 18.04 LTS</strong></a></li>
+<li><a href="https://www.microsoft.com/en-in/p/opensuse-leap-15/9n1tb6fpvj8c?rtc=1&amp;activetab=pivot:overviewtab"><strong>OpenSUSE Leap 15</strong></a></li>
+<li><a href="https://www.microsoft.com/en-in/p/opensuse-leap-42/9njvjts82tjx?rtc=1&amp;activetab=pivot:overviewtab"><strong>OpenSUSE Leap 42</strong></a></li>
+<li><a href="https://www.microsoft.com/en-in/p/suse-linux-enterprise-server-12/9p32mwbh6cns?rtc=1&amp;activetab=pivot:overviewtab"><strong>SUSE Linux Enterprise Server 12</strong></a></li>
+<li><a href="https://www.microsoft.com/en-in/p/suse-linux-enterprise-server-15/9pmw35d7fnlx?rtc=1&amp;activetab=pivot:overviewtab"><strong>SUSE Linux Enterprise Server 15</strong></a></li>
+<li><a href="https://www.microsoft.com/en-in/p/kali-linux/9pkr34tncv07?rtc=1&amp;activetab=pivot:overviewtab"><strong>Kali Linux</strong></a></li>
+<li><a href="https://www.microsoft.com/en-in/p/debian/9msvkqc78pk6?rtc=1&amp;activetab=pivot:overviewtab"><strong>Debian GNU/Linux</strong></a></li>
+<li><a href="https://www.microsoft.com/en-in/p/fedora-remix-for-wsl/9n6gdm4k2hnc?rtc=1&amp;activetab=pivot:overviewtab"><strong>Fedora Remix for WSL</strong></a></li>
+<li><a href="https://www.microsoft.com/en-in/p/pengwin/9nv1gv1pxz6p?rtc=1&amp;activetab=pivot:overviewtab"><strong>Pengwin</strong></a></li>
+<li><a href="https://www.microsoft.com/en-in/p/pengwin-enterprise/9n8lp0x93vcp?rtc=1&amp;activetab=pivot:overviewtab"><strong>Pengwin Enterprise</strong></a></li>
+<li><a href="https://www.microsoft.com/en-in/p/alpine-wsl/9p804crf0395?rtc=1&amp;activetab=pivot:overviewtab"><strong>Alpine WSL</strong></a></li>
+</ul>
+<p><em>You may have to pay for some of the listed distros.</em></p>
+</li>
+<li>
+<p>From the distro’s page you opened in the Microsoft Store, select “Get”.
+<img src="/blog/blog2/4.png" alt="> null_">
+After installation is complete, click Launch.</p>
+</li>
+</ul>
+<p><strong>A few common ERRORS</strong></p>
+<p>✗ <strong>Error: 0x8007019e WslRegisterDistribution failed</strong></p>
+<ul>
+<li>This error pops up if you have not enabled the “Windows Subsystem for Linux” optional feature. To fix it follow the procedure provided at the start of the document.</li>
+</ul>
+<p>✗ <strong>Error: 0x80070003 during Installation</strong></p>
+<ul>
+<li>The Windows Subsystem for Linux only runs in system drive (i.e. usually your c: drive). Hence, make sure that the distros you have installed are stored in your system drive.</li>
+<li>Open Settings-&gt;Storage-&gt;More Storage Settings: Change where new content is saved
+<img src="/blog/blog2/5.png" alt="> null_"></li>
+</ul>
+<p>✗ <strong>Error: 0x80040306 during Installation</strong>
+This pops up because WSL does not support legacy consoles. To turn off the legacy console:</p>
+<ul>
+<li>Open “Command Prompt”</li>
+<li>Right-click on the title bar &gt; Properties &gt; Uncheck “Use legacy console”. III. Click OK
+✗ Error: 0x80040154 after Windows Update
+During windows update the windows feature of “WSL” may get disabled to default. To fix it follow the steps explained in the first error.</li>
+</ul>
+<p>Once the installation is complete, you will be asked to create a user account. The username and password can be different from your Windows system.
+<img src="/blog/blog2/6.png" alt="> null_"></p>
+<p>Update your Linux distro:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">Sudo apt update
+Sudo apt upgrade
+</code></pre></div><p>Now, you are all set.</p>
+<p>With Love,</p>
+<p>Sk Saddam Hossain</p>
+<ul>
+<li><strong><a href="https://sksaddam.com">https://sksaddam.com</a></strong></li>
+<li><a href="https://www.linkedin.com/in/sksaddam/"><strong>LinkedIn</strong></a></li>
+<li><a href="https://github.com/SaddySk/"><strong>GitHub</strong></a></li>
+</ul>
+
+      </div></div>
+
+  
+
+  
+
+</div>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>Null Infosec </span>
+    
+        <span>:: VIT-AP 2021</span>
+      </div>
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>

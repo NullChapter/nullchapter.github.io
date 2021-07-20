@@ -8,9 +8,9 @@ draft: false
 You can reach us at the following emails:
 
 - **Club Email**: nc.club@vitap.ac.in
-- **President**: saddam.18bcn7143@vitap.ac.in
-- **Vice President(Programme Management)**: jagannadh.18 bcn7079@vitap.ac.in
-- **Vice President(Operations)**: krishna.18bcn7136@vitap.ac.in
+- **President**: lakshmi.19bcn7090@vitap.ac.in
+- **Vice President(Programme Management)**: pravalika.20bce7111@vitap.ac.in
+- **Vice President(Operations)**: lakshmi.19bce7052@vitap.ac.in
 
 ## Github
 Check us out on [Github](https://github.com/nullchapter "Github").

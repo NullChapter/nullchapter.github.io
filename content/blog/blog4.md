@@ -18,88 +18,45 @@ Here are three key term that lie at the heart of all enterprise cyber-defenses:
 
 The sum-total of point on a network where attack can occurs where and not permitted user (the “attacker”) can try to manipulate or take out data using a many of breach methods (the “cyber attack vectors”). If you consider a graph where  as the x-axis lists all of the devices and apps on your network (infrastructure, apps, endpoints, IoT, etc.) and the y-axis are the different breach methods such  weak and default passwords, reused passwords, phishing, social engineering, unpatched software, mis configurations etc. – the plot is your [**attack surface**](https://www.balbix.com/insights/attack-vector-vs-attack-surface/)
 
-**Steps to Install Windows Subsystem for Linux (WSL)**
 
-Before installing any Linux distribution for WSL, you must ensure that the “Windows Subsystem for Linux” optional feature is enabled in your system.
-If not you can enable it in two ways. 
+![> null_](/blog/blog4/1.png)
 
-**Graphically**
 
-- Open “Settings”. 
-- Go to “Apps -> Apps & Features”.
-- Scroll down to the “Programs and Features” link: 
-- Click the link. The Programs and Features dialogue will be opened.
-- On the left, click the link Turn Windows features on or off.
-    ![> null_](/blog/blog2/1.png)
+**Cyber Attack vector**  
 
-- 'Windows Features' window will appear on the screen. Scroll down to the option named “Windows Subsystem” for Linux and enable it.
-    ![> null_](/blog/blog2/2.png)
-- Click OK to apply the changes you made.
-- Reboot the operating system when prompted. 
+The method or way by which a challenger can breach or infiltrate an entire system. Attack vectors enable hackers to develop system vulnerabilities, including the human element.
 
-**Using Powershell:**
-- Open PowerShell as Administrator and run the below command: 
-```html
-  Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
-```
-- Restart your computer when prompted. 
+![> null_](/blog/blog4/2.png)
 
-Finally, you are ready to install the Linux distribution of your choice. To download and install the preferred distro:
-- Make sure that your system has Windows 10 build 16215 or later. Go to Settings>System>About and look for the **OS Build** and **System Type** fields. 
-    ![> null_](/blog/blog2/3.png)
+**Security breach**
 
-- Open Microsoft Store and choose your Linux distro you want to use. The following link will take to the Microsoft Store for each specific distribution: 
-    - [**Ubuntu 16.04 LTS**](https://www.microsoft.com/en-in/p/ubuntu-1604-lts/9pjn388hp8c9?rtc=1&activetab=pivot:overviewtab) 
-    - [**Ubuntu 18.04 LTS**](https://www.microsoft.com/en-in/p/ubuntu-1804-lts/9n9tngvndl3q?rtc=1&activetab=pivot:overviewtab)
-    - [**OpenSUSE Leap 15**](https://www.microsoft.com/en-in/p/opensuse-leap-15/9n1tb6fpvj8c?rtc=1&activetab=pivot:overviewtab)
-    - [**OpenSUSE Leap 42**](https://www.microsoft.com/en-in/p/opensuse-leap-42/9njvjts82tjx?rtc=1&activetab=pivot:overviewtab)
-    - [**SUSE Linux Enterprise Server 12**](https://www.microsoft.com/en-in/p/suse-linux-enterprise-server-12/9p32mwbh6cns?rtc=1&activetab=pivot:overviewtab)
-    - [**SUSE Linux Enterprise Server 15**](https://www.microsoft.com/en-in/p/suse-linux-enterprise-server-15/9pmw35d7fnlx?rtc=1&activetab=pivot:overviewtab)
-    - [**Kali Linux**](https://www.microsoft.com/en-in/p/kali-linux/9pkr34tncv07?rtc=1&activetab=pivot:overviewtab)
-    - [**Debian GNU/Linux**](https://www.microsoft.com/en-in/p/debian/9msvkqc78pk6?rtc=1&activetab=pivot:overviewtab)
-    - [**Fedora Remix for WSL**](https://www.microsoft.com/en-in/p/fedora-remix-for-wsl/9n6gdm4k2hnc?rtc=1&activetab=pivot:overviewtab )
-    - [**Pengwin**](https://www.microsoft.com/en-in/p/pengwin/9nv1gv1pxz6p?rtc=1&activetab=pivot:overviewtab)
-    - [**Pengwin Enterprise**](https://www.microsoft.com/en-in/p/pengwin-enterprise/9n8lp0x93vcp?rtc=1&activetab=pivot:overviewtab)
-    - [**Alpine WSL**](https://www.microsoft.com/en-in/p/alpine-wsl/9p804crf0395?rtc=1&activetab=pivot:overviewtab)
-    
-    *You may have to pay for some of the listed distros.*
+Any security incident in which sensitive, protected, or confidential data is accessed or stolen by an unauthorized party, jeopardizing an organization brand, customers, and asset. Incidents such as DDoS, Bitcoin mining etc. are also security breach. Data breaches are the most familiar but not all security incident concern data theft.
 
-- From the distro’s page you opened in the Microsoft Store, select “Get”. 
-    ![> null_](/blog/blog2/4.png)
-After installation is complete, click Launch.
+![> null_](/blog/blog4/3.png)
 
-**A few common ERRORS**
+# Common cyber attack vectors and how to avoid it
 
-✗ **Error: 0x8007019e WslRegisterDistribution failed**
-- This error pops up if you have not enabled the “Windows Subsystem for Linux” optional feature. To fix it follow the procedure provided at the start of the document. 
+**Compromised Credentials**
 
-✗ **Error: 0x80070003 during Installation**
-- The Windows Subsystem for Linux only runs in system drive (i.e. usually your c: drive). Hence, make sure that the distros you have installed are stored in your system drive. 
-- Open Settings->Storage->More Storage Settings: Change where new content is saved
-    ![> null_](/blog/blog2/5.png)
+The username and password maintain to be the most common type of access credential. Compromised credentials describe a case where user credentials, such as usernames and passwords, are exposed to unauthorized entities. This typically happen when an unsuspecting user fall prey to phishing attempts and type in their login credentials on fake websites. 
 
-✗ **Error: 0x80040306 during Installation**
-This pops up because WSL does not support legacy consoles. To turn off the legacy console:
-- Open “Command Prompt” 
-- Right-click on the title bar > Properties > Uncheck “Use legacy console”. III. Click OK 
-✗ Error: 0x80040154 after Windows Update 
-During windows update the windows feature of “WSL” may get disabled to default. To fix it follow the steps explained in the first error.
+**How to avoid it**
 
-Once the installation is complete, you will be asked to create a user account. The username and password can be different from your Windows system.
-    ![> null_](/blog/blog2/6.png)
+Common username and weak password can lead to compromise credentials, so it is to be emphasized that the enterprise has effective password policies that ensure fitting password strength.
 
-Update your Linux distro: 
-```html
-Sudo apt update
-Sudo apt upgrade
-```
- 
-Now, you are all set.
+Password giving out across services makes all applications that share credential vulnerable as a significance of the breach of one service or application in cohort. Do not reprocess the same password to access multiple apps and systems.
 
-With Love,
+**Weak and Stolen Credentials**
 
-Sk Saddam Hossain
+Weak passwords and password reuse make credential introduction a gateway for initial attackers’ access and propagation. Recent malware attack such as Mirai highlights this threat can not only for manage devices but also IoT connected device.
 
-- **https://sksaddam.com**
-- [**LinkedIn**](https://www.linkedin.com/in/sksaddam/)
-- [**GitHub**](https://github.com/SaddySk/)
+Apps and protocol sending login credential over the network pose a trivial security threat. An attackers connected to your network can easily locate and utilize these credentials for lateral movement
+
+**How to avoid it**
+
+Track password hygiene and use across your entire activity to identify high risk user and their device.
+
+**Conclusion**
+
+So, the goal of an adversary and malicious insider is to access your high value device, apps, and data. Unsecured device and users with access to sensitive app, data, and network will pose a high risk to your enterprise.
+To stay ahead of the bad guy, you need to start by understand your vulnerabilities, significantly the many ways your defense can be breached, and then putting in place the protection needed to maintain a secure, flexible cybersecurity posture. Keeping the attack surface as small as possible should be considered as a basic security measure and is the key for maintaining a strong [**attack surface**](https://www.balbix.com/insights/what-is-cyber-security-posture/).

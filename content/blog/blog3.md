@@ -2,8 +2,8 @@
 title: "Conflict or continuum?"
 date: 2021-10-08T02:52:48+05:30
 draft: false
-author: Sk Saddam Hossain
-description: Windows Subsystem for Linux
+author: Event Management Team
+description: There are a thousand hacking at the branches of evil to one who is striking at the root.
 ---
 
 Before talking about the beliefs and activities of digital technology aficionados who are also referred to as "hackers," we'll talk about how their defining activity has been framed as a social concern, and how that frame has been contested in many ways. The chapter finishes with several policy recommendations targeted at dealing with the more serious aspects of computer hacking.

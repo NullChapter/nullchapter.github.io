@@ -2,8 +2,8 @@
 title: "Cyber Attack"
 date: 2021-10-08T02:55:48+05:30
 draft: false
-author: Sk Saddam Hossain
-description: Windows Subsystem for Linux
+author: Public Relations and Marketing Team
+description: If you are a cybersecurity expert living in today’s shark-infested cyber-world, your mission is to stay ahead of the bad guys and keep your activity safe.
 ---
 
 If you are a cybersecurity expert living in today’s shark-infested cyber-world, your mission is to stay ahead of the bad guys and keep your activity safe. This starts by understanding your vulnerabilities, knowing the many ways by which your resistance can be breached, and then putting together in position the protections needed to maintain a secure, tough cybersecurity posture. It’s a big job and is significantly important to the security of your enterprise. Cybercrimes have increased every year as people try to profit from vulnerable business system. Often, attackers are look for liberate 53 percent of cyber-attack resulted in damage. Cyberthreats can also be launched with ulterior motives. Some attackers look to demolish systems and data as a form of “Hacktivism.”
